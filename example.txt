@@ -1,0 +1,31 @@
+0 = not on the map
+1 = red
+2 = yellow
+3 = green
+4 = blue
+5 = white
+6 = black
+7 = brown
+8 = blank
+
+Make the 2d array the size of the map.
+Your .json file goes in the map folder.
+
+linux:
+	/usr/local/share/color_game/maps
+
+Start of .json.
+{
+	"size": {"w": 8, "h": 9},
+	"map": [
+		[0, 0, 0, 0, 0, 0, 8, 8],
+		[0, 0, 4, 3, 2, 0, 8, 4],
+		[6, 8, 8, 8, 8, 8, 8, 0],
+		[0, 8, 0, 8, 0, 8, 8, 0],
+		[0, 1, 8, 8, 8, 8, 0, 0],
+		[0, 0, 8, 0, 8, 8, 8, 8],
+		[0, 8, 8, 0, 8, 8, 8, 5],
+		[0, 0, 8, 0, 8, 0, 0, 0],
+		[0, 0, 2, 7, 8, 0, 0, 0]
+	]
+}
